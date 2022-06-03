@@ -26,4 +26,16 @@ public class Movie {
         }
         return movies;
     }
+
+    public String getPosterPath() {
+        return String.format("https://image.tmdb.org/t/p/w342/%s", posterPath);  // TODO: video at 20:37, replace hard code
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getOverview() {
+        return overview;
+    }
 }
