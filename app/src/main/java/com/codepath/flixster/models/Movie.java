@@ -28,7 +28,7 @@ public class Movie {
     }
 
     public String getPosterPath() {
-        return String.format("https://image.tmdb.org/t/p/w342/%s", posterPath);  // TODO: video at 20:37, replace hard code
+        return String.format("https://image.tmdb.org/t/p/w342/%s", posterPath);  // TODO: video (ep 1) at 20:37, replace hard code
     }
 
     public String getTitle() {
